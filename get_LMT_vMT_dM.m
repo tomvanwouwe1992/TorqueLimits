@@ -1,0 +1,43 @@
+function [LMT,VMT,dM] = get_LMT_vMT_dM(Model_OS,MusclesOI,CoordinatesOI,kinematics,DOF)
+% We first setup the state of the model to the one provided in the
+% kinematics
+
+LMT = zeros(size(kinematics,1),length(MusclesOI));
+VMT = zeros(size(kinematics,1),length(MusclesOI));
+dM = zeros((length(MusclesOI)+length(DOF))*size(kinematics,1),length(DOF));
+state = Model_OS.initSystem;
+for t = 1:size(kinematics,1)
+    
+    for i = 1:length(DOF)
+        stateName = cell2mat(DOF(i));
+        state_value = kinematics(t,i);
+        Model_OS.setStateVariable(state,stateName,state_value);
+        stateName = [stateName  '_u'];
+        state_value = kinematics(t,i+length(DOF));
+        Model_OS.setStateVariable(state,stateName,state_value);
+    end
+    Model_OS.equilibrateMuscles(state);
+    
+    % Now that the model is in the correct state we can read out the muscle
+    % information
+    
+    coordinateSet = Model_OS.getCoordinateSet;
+    for i = 1:length(MusclesOI)
+        muscle = Model_OS.getMuscles.get(MusclesOI(i).index-1);
+        LMT(t,i) = muscle.getLength(state);
+        VMT(t,i) = muscle.getLengtheningSpeed(state);
+        for k = 1:length(DOF)
+            if find(CoordinatesOI(k).index == [MusclesOI(i).coordinate(:).coordinateIndex])
+            coordinate = coordinateSet.get(CoordinatesOI(k).index-1);
+            dM((t-1)*(length(MusclesOI)+length(DOF)) + i,k) = muscle.computeMomentArm(state, coordinate);
+            else
+            end
+        end
+    end
+    for k = 1:length(DOF)
+        dM((t-1)*(length(MusclesOI)+length(DOF)) + length(MusclesOI) + k,k) = 1;
+    end
+end
+
+
+

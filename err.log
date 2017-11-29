@@ -1,0 +1,1496 @@
+WARNING: No suitable initial conditions found for
+  tfl_l: 
+  by 
+
+WARNING: Thelen2003Muscle::computeInitialFiberEquilibrium(SimTK::State& s) 
+Continuing with an initial fiber force and length of 0 and 0.095000
+    Here is a report from the routine:
+ 
+        Solution Error      : 11.699348 > tol (0.000002) 
+        Newton Iterations   : 200 of max. iterations (200)
+    Check that the initial activation is valid, and that the whole 
+    length doesn't produce a pennation angle of 90 degrees, nor a fiber
+    length less than 0:
+        Activation          : 0.050000 
+        Whole muscle length : nan 
+
+
+WARNING: No suitable initial conditions found for
+  med_gas_l: 
+  by 
+
+WARNING: Thelen2003Muscle::computeInitialFiberEquilibrium(SimTK::State& s) 
+Continuing with an initial fiber force and length of 0 and 0.090000
+    Here is a report from the routine:
+ 
+        Solution Error      : 0.605748 > tol (0.000025) 
+        Newton Iterations   : 200 of max. iterations (200)
+    Check that the initial activation is valid, and that the whole 
+    length doesn't produce a pennation angle of 90 degrees, nor a fiber
+    length less than 0:
+        Activation          : 0.050000 
+        Whole muscle length : nan 
+
+
+WARNING: No suitable initial conditions found for
+  tib_post_l: 
+  by 
+
+WARNING: Thelen2003Muscle::computeInitialFiberEquilibrium(SimTK::State& s) 
+Continuing with an initial fiber force and length of 0 and 0.031000
+    Here is a report from the routine:
+ 
+        Solution Error      : 2.636057 > tol (0.000036) 
+        Newton Iterations   : 200 of max. iterations (200)
+    Check that the initial activation is valid, and that the whole 
+    length doesn't produce a pennation angle of 90 degrees, nor a fiber
+    length less than 0:
+        Activation          : 0.050000 
+        Whole muscle length : nan 
+
+
+WARNING: No suitable initial conditions found for
+  gem_l: 
+  by 
+
+WARNING: Thelen2003Muscle::computeInitialFiberEquilibrium(SimTK::State& s) 
+Continuing with an initial fiber force and length of 0 and 0.024000
+    Here is a report from the routine:
+ 
+        Solution Error      : 1928.185788 > tol (0.000002) 
+        Newton Iterations   : 200 of max. iterations (200)
+    Check that the initial activation is valid, and that the whole 
+    length doesn't produce a pennation angle of 90 degrees, nor a fiber
+    length less than 0:
+        Activation          : 0.050000 
+        Whole muscle length : nan 
+
+
+WARNING: No suitable initial conditions found for
+  tib_post_l: 
+  by 
+
+WARNING: Thelen2003Muscle::computeInitialFiberEquilibrium(SimTK::State& s) 
+Continuing with an initial fiber force and length of 0 and 0.031000
+    Here is a report from the routine:
+ 
+        Solution Error      : 1.293740 > tol (0.000036) 
+        Newton Iterations   : 200 of max. iterations (200)
+    Check that the initial activation is valid, and that the whole 
+    length doesn't produce a pennation angle of 90 degrees, nor a fiber
+    length less than 0:
+        Activation          : 0.050000 
+        Whole muscle length : nan 
+
+
+WARNING: No suitable initial conditions found for
+  gem_l: 
+  by 
+
+WARNING: Thelen2003Muscle::computeInitialFiberEquilibrium(SimTK::State& s) 
+Continuing with an initial fiber force and length of 0 and 0.024000
+    Here is a report from the routine:
+ 
+        Solution Error      : 1816.038480 > tol (0.000002) 
+        Newton Iterations   : 200 of max. iterations (200)
+    Check that the initial activation is valid, and that the whole 
+    length doesn't produce a pennation angle of 90 degrees, nor a fiber
+    length less than 0:
+        Activation          : 0.050000 
+        Whole muscle length : nan 
+
+
+WARNING: No suitable initial conditions found for
+  tib_post_l: 
+  by 
+
+WARNING: Thelen2003Muscle::computeInitialFiberEquilibrium(SimTK::State& s) 
+Continuing with an initial fiber force and length of 0 and 0.031000
+    Here is a report from the routine:
+ 
+        Solution Error      : 8.195176 > tol (0.000036) 
+        Newton Iterations   : 200 of max. iterations (200)
+    Check that the initial activation is valid, and that the whole 
+    length doesn't produce a pennation angle of 90 degrees, nor a fiber
+    length less than 0:
+        Activation          : 0.050000 
+        Whole muscle length : nan 
+
+
+WARNING: No suitable initial conditions found for
+  tib_ant_l: 
+  by 
+
+WARNING: Thelen2003Muscle::computeInitialFiberEquilibrium(SimTK::State& s) 
+Continuing with an initial fiber force and length of 0 and 0.098000
+    Here is a report from the routine:
+ 
+        Solution Error      : 0.002072 > tol (0.000030) 
+        Newton Iterations   : 200 of max. iterations (200)
+    Check that the initial activation is valid, and that the whole 
+    length doesn't produce a pennation angle of 90 degrees, nor a fiber
+    length less than 0:
+        Activation          : 0.050000 
+        Whole muscle length : nan 
+
+
+WARNING: No suitable initial conditions found for
+  tfl_l: 
+  by 
+
+WARNING: Thelen2003Muscle::computeInitialFiberEquilibrium(SimTK::State& s) 
+Continuing with an initial fiber force and length of 0 and 0.095000
+    Here is a report from the routine:
+ 
+        Solution Error      : 0.001837 > tol (0.000002) 
+        Newton Iterations   : 200 of max. iterations (200)
+    Check that the initial activation is valid, and that the whole 
+    length doesn't produce a pennation angle of 90 degrees, nor a fiber
+    length less than 0:
+        Activation          : 0.050000 
+        Whole muscle length : nan 
+
+
+WARNING: No suitable initial conditions found for
+  psoas_l: 
+  by 
+
+WARNING: Thelen2003Muscle::computeInitialFiberEquilibrium(SimTK::State& s) 
+Continuing with an initial fiber force and length of 0 and 0.100000
+    Here is a report from the routine:
+ 
+        Solution Error      : 0.010703 > tol (0.000011) 
+        Newton Iterations   : 200 of max. iterations (200)
+    Check that the initial activation is valid, and that the whole 
+    length doesn't produce a pennation angle of 90 degrees, nor a fiber
+    length less than 0:
+        Activation          : 0.050000 
+        Whole muscle length : nan 
+
+
+WARNING: No suitable initial conditions found for
+  quad_fem_l: 
+  by 
+
+WARNING: Thelen2003Muscle::computeInitialFiberEquilibrium(SimTK::State& s) 
+Continuing with an initial fiber force and length of 0 and 0.054000
+    Here is a report from the routine:
+ 
+        Solution Error      : 17500.961626 > tol (0.000004) 
+        Newton Iterations   : 200 of max. iterations (200)
+    Check that the initial activation is valid, and that the whole 
+    length doesn't produce a pennation angle of 90 degrees, nor a fiber
+    length less than 0:
+        Activation          : 0.050000 
+        Whole muscle length : nan 
+
+
+WARNING: No suitable initial conditions found for
+  tfl_l: 
+  by 
+
+WARNING: Thelen2003Muscle::computeInitialFiberEquilibrium(SimTK::State& s) 
+Continuing with an initial fiber force and length of 0 and 0.095000
+    Here is a report from the routine:
+ 
+        Solution Error      : 11.699348 > tol (0.000002) 
+        Newton Iterations   : 200 of max. iterations (200)
+    Check that the initial activation is valid, and that the whole 
+    length doesn't produce a pennation angle of 90 degrees, nor a fiber
+    length less than 0:
+        Activation          : 0.050000 
+        Whole muscle length : nan 
+
+
+WARNING: No suitable initial conditions found for
+  med_gas_l: 
+  by 
+
+WARNING: Thelen2003Muscle::computeInitialFiberEquilibrium(SimTK::State& s) 
+Continuing with an initial fiber force and length of 0 and 0.090000
+    Here is a report from the routine:
+ 
+        Solution Error      : 0.605748 > tol (0.000025) 
+        Newton Iterations   : 200 of max. iterations (200)
+    Check that the initial activation is valid, and that the whole 
+    length doesn't produce a pennation angle of 90 degrees, nor a fiber
+    length less than 0:
+        Activation          : 0.050000 
+        Whole muscle length : nan 
+
+
+WARNING: No suitable initial conditions found for
+  tib_post_l: 
+  by 
+
+WARNING: Thelen2003Muscle::computeInitialFiberEquilibrium(SimTK::State& s) 
+Continuing with an initial fiber force and length of 0 and 0.031000
+    Here is a report from the routine:
+ 
+        Solution Error      : 2.636057 > tol (0.000036) 
+        Newton Iterations   : 200 of max. iterations (200)
+    Check that the initial activation is valid, and that the whole 
+    length doesn't produce a pennation angle of 90 degrees, nor a fiber
+    length less than 0:
+        Activation          : 0.050000 
+        Whole muscle length : nan 
+
+
+WARNING: No suitable initial conditions found for
+  gem_l: 
+  by 
+
+WARNING: Thelen2003Muscle::computeInitialFiberEquilibrium(SimTK::State& s) 
+Continuing with an initial fiber force and length of 0 and 0.024000
+    Here is a report from the routine:
+ 
+        Solution Error      : 1928.185788 > tol (0.000002) 
+        Newton Iterations   : 200 of max. iterations (200)
+    Check that the initial activation is valid, and that the whole 
+    length doesn't produce a pennation angle of 90 degrees, nor a fiber
+    length less than 0:
+        Activation          : 0.050000 
+        Whole muscle length : nan 
+
+
+WARNING: No suitable initial conditions found for
+  tib_post_l: 
+  by 
+
+WARNING: Thelen2003Muscle::computeInitialFiberEquilibrium(SimTK::State& s) 
+Continuing with an initial fiber force and length of 0 and 0.031000
+    Here is a report from the routine:
+ 
+        Solution Error      : 1.293740 > tol (0.000036) 
+        Newton Iterations   : 200 of max. iterations (200)
+    Check that the initial activation is valid, and that the whole 
+    length doesn't produce a pennation angle of 90 degrees, nor a fiber
+    length less than 0:
+        Activation          : 0.050000 
+        Whole muscle length : nan 
+
+
+WARNING: No suitable initial conditions found for
+  gem_l: 
+  by 
+
+WARNING: Thelen2003Muscle::computeInitialFiberEquilibrium(SimTK::State& s) 
+Continuing with an initial fiber force and length of 0 and 0.024000
+    Here is a report from the routine:
+ 
+        Solution Error      : 1816.038480 > tol (0.000002) 
+        Newton Iterations   : 200 of max. iterations (200)
+    Check that the initial activation is valid, and that the whole 
+    length doesn't produce a pennation angle of 90 degrees, nor a fiber
+    length less than 0:
+        Activation          : 0.050000 
+        Whole muscle length : nan 
+
+
+WARNING: No suitable initial conditions found for
+  tib_post_l: 
+  by 
+
+WARNING: Thelen2003Muscle::computeInitialFiberEquilibrium(SimTK::State& s) 
+Continuing with an initial fiber force and length of 0 and 0.031000
+    Here is a report from the routine:
+ 
+        Solution Error      : 8.195176 > tol (0.000036) 
+        Newton Iterations   : 200 of max. iterations (200)
+    Check that the initial activation is valid, and that the whole 
+    length doesn't produce a pennation angle of 90 degrees, nor a fiber
+    length less than 0:
+        Activation          : 0.050000 
+        Whole muscle length : nan 
+
+
+WARNING: No suitable initial conditions found for
+  tib_ant_l: 
+  by 
+
+WARNING: Thelen2003Muscle::computeInitialFiberEquilibrium(SimTK::State& s) 
+Continuing with an initial fiber force and length of 0 and 0.098000
+    Here is a report from the routine:
+ 
+        Solution Error      : 0.002072 > tol (0.000030) 
+        Newton Iterations   : 200 of max. iterations (200)
+    Check that the initial activation is valid, and that the whole 
+    length doesn't produce a pennation angle of 90 degrees, nor a fiber
+    length less than 0:
+        Activation          : 0.050000 
+        Whole muscle length : nan 
+
+
+WARNING: No suitable initial conditions found for
+  tfl_l: 
+  by 
+
+WARNING: Thelen2003Muscle::computeInitialFiberEquilibrium(SimTK::State& s) 
+Continuing with an initial fiber force and length of 0 and 0.095000
+    Here is a report from the routine:
+ 
+        Solution Error      : 0.001837 > tol (0.000002) 
+        Newton Iterations   : 200 of max. iterations (200)
+    Check that the initial activation is valid, and that the whole 
+    length doesn't produce a pennation angle of 90 degrees, nor a fiber
+    length less than 0:
+        Activation          : 0.050000 
+        Whole muscle length : nan 
+
+
+WARNING: No suitable initial conditions found for
+  psoas_l: 
+  by 
+
+WARNING: Thelen2003Muscle::computeInitialFiberEquilibrium(SimTK::State& s) 
+Continuing with an initial fiber force and length of 0 and 0.100000
+    Here is a report from the routine:
+ 
+        Solution Error      : 0.010703 > tol (0.000011) 
+        Newton Iterations   : 200 of max. iterations (200)
+    Check that the initial activation is valid, and that the whole 
+    length doesn't produce a pennation angle of 90 degrees, nor a fiber
+    length less than 0:
+        Activation          : 0.050000 
+        Whole muscle length : nan 
+
+
+WARNING: No suitable initial conditions found for
+  quad_fem_l: 
+  by 
+
+WARNING: Thelen2003Muscle::computeInitialFiberEquilibrium(SimTK::State& s) 
+Continuing with an initial fiber force and length of 0 and 0.054000
+    Here is a report from the routine:
+ 
+        Solution Error      : 17500.961626 > tol (0.000004) 
+        Newton Iterations   : 200 of max. iterations (200)
+    Check that the initial activation is valid, and that the whole 
+    length doesn't produce a pennation angle of 90 degrees, nor a fiber
+    length less than 0:
+        Activation          : 0.050000 
+        Whole muscle length : nan 
+
+
+WARNING: No suitable initial conditions found for
+  tfl_l: 
+  by 
+
+WARNING: Thelen2003Muscle::computeInitialFiberEquilibrium(SimTK::State& s) 
+Continuing with an initial fiber force and length of 0 and 0.095000
+    Here is a report from the routine:
+ 
+        Solution Error      : 0.003365 > tol (0.000002) 
+        Newton Iterations   : 200 of max. iterations (200)
+    Check that the initial activation is valid, and that the whole 
+    length doesn't produce a pennation angle of 90 degrees, nor a fiber
+    length less than 0:
+        Activation          : 0.050000 
+        Whole muscle length : nan 
+
+
+WARNING: No suitable initial conditions found for
+  tfl_l: 
+  by 
+
+WARNING: Thelen2003Muscle::computeInitialFiberEquilibrium(SimTK::State& s) 
+Continuing with an initial fiber force and length of 0 and 0.095000
+    Here is a report from the routine:
+ 
+        Solution Error      : 0.427575 > tol (0.000002) 
+        Newton Iterations   : 200 of max. iterations (200)
+    Check that the initial activation is valid, and that the whole 
+    length doesn't produce a pennation angle of 90 degrees, nor a fiber
+    length less than 0:
+        Activation          : 0.050000 
+        Whole muscle length : nan 
+
+
+WARNING: No suitable initial conditions found for
+  glut_med1_l: 
+  by 
+
+WARNING: Thelen2003Muscle::computeInitialFiberEquilibrium(SimTK::State& s) 
+Continuing with an initial fiber force and length of 0 and 0.053500
+    Here is a report from the routine:
+ 
+        Solution Error      : 18.662335 > tol (0.000011) 
+        Newton Iterations   : 200 of max. iterations (200)
+    Check that the initial activation is valid, and that the whole 
+    length doesn't produce a pennation angle of 90 degrees, nor a fiber
+    length less than 0:
+        Activation          : 0.050000 
+        Whole muscle length : nan 
+
+
+WARNING: No suitable initial conditions found for
+  gem_l: 
+  by 
+
+WARNING: Thelen2003Muscle::computeInitialFiberEquilibrium(SimTK::State& s) 
+Continuing with an initial fiber force and length of 0 and 0.024000
+    Here is a report from the routine:
+ 
+        Solution Error      : 1874.033523 > tol (0.000002) 
+        Newton Iterations   : 200 of max. iterations (200)
+    Check that the initial activation is valid, and that the whole 
+    length doesn't produce a pennation angle of 90 degrees, nor a fiber
+    length less than 0:
+        Activation          : 0.050000 
+        Whole muscle length : nan 
+
+
+WARNING: No suitable initial conditions found for
+  tfl_l: 
+  by 
+
+WARNING: Thelen2003Muscle::computeInitialFiberEquilibrium(SimTK::State& s) 
+Continuing with an initial fiber force and length of 0 and 0.095000
+    Here is a report from the routine:
+ 
+        Solution Error      : 0.010860 > tol (0.000002) 
+        Newton Iterations   : 200 of max. iterations (200)
+    Check that the initial activation is valid, and that the whole 
+    length doesn't produce a pennation angle of 90 degrees, nor a fiber
+    length less than 0:
+        Activation          : 0.050000 
+        Whole muscle length : nan 
+
+
+WARNING: No suitable initial conditions found for
+  tfl_l: 
+  by 
+
+WARNING: Thelen2003Muscle::computeInitialFiberEquilibrium(SimTK::State& s) 
+Continuing with an initial fiber force and length of 0 and 0.095000
+    Here is a report from the routine:
+ 
+        Solution Error      : 0.004059 > tol (0.000002) 
+        Newton Iterations   : 200 of max. iterations (200)
+    Check that the initial activation is valid, and that the whole 
+    length doesn't produce a pennation angle of 90 degrees, nor a fiber
+    length less than 0:
+        Activation          : 0.050000 
+        Whole muscle length : nan 
+
+
+WARNING: No suitable initial conditions found for
+  soleus_l: 
+  by 
+
+WARNING: Thelen2003Muscle::computeInitialFiberEquilibrium(SimTK::State& s) 
+Continuing with an initial fiber force and length of 0 and 0.050000
+    Here is a report from the routine:
+ 
+        Solution Error      : 0.043185 > tol (0.000040) 
+        Newton Iterations   : 200 of max. iterations (200)
+    Check that the initial activation is valid, and that the whole 
+    length doesn't produce a pennation angle of 90 degrees, nor a fiber
+    length less than 0:
+        Activation          : 0.050000 
+        Whole muscle length : nan 
+
+
+WARNING: No suitable initial conditions found for
+  quad_fem_l: 
+  by 
+
+WARNING: Thelen2003Muscle::computeInitialFiberEquilibrium(SimTK::State& s) 
+Continuing with an initial fiber force and length of 0 and 0.054000
+    Here is a report from the routine:
+ 
+        Solution Error      : 4.402318 > tol (0.000004) 
+        Newton Iterations   : 200 of max. iterations (200)
+    Check that the initial activation is valid, and that the whole 
+    length doesn't produce a pennation angle of 90 degrees, nor a fiber
+    length less than 0:
+        Activation          : 0.050000 
+        Whole muscle length : nan 
+
+
+WARNING: No suitable initial conditions found for
+  glut_med1_l: 
+  by 
+
+WARNING: Thelen2003Muscle::computeInitialFiberEquilibrium(SimTK::State& s) 
+Continuing with an initial fiber force and length of 0 and 0.053500
+    Here is a report from the routine:
+ 
+        Solution Error      : 22.653613 > tol (0.000011) 
+        Newton Iterations   : 200 of max. iterations (200)
+    Check that the initial activation is valid, and that the whole 
+    length doesn't produce a pennation angle of 90 degrees, nor a fiber
+    length less than 0:
+        Activation          : 0.050000 
+        Whole muscle length : nan 
+
+
+WARNING: No suitable initial conditions found for
+  peri_l: 
+  by 
+
+WARNING: Thelen2003Muscle::computeInitialFiberEquilibrium(SimTK::State& s) 
+Continuing with an initial fiber force and length of 0 and 0.026000
+    Here is a report from the routine:
+ 
+        Solution Error      : 0.105221 > tol (0.000004) 
+        Newton Iterations   : 200 of max. iterations (200)
+    Check that the initial activation is valid, and that the whole 
+    length doesn't produce a pennation angle of 90 degrees, nor a fiber
+    length less than 0:
+        Activation          : 0.050000 
+        Whole muscle length : nan 
+
+
+WARNING: No suitable initial conditions found for
+  psoas_l: 
+  by 
+
+WARNING: Thelen2003Muscle::computeInitialFiberEquilibrium(SimTK::State& s) 
+Continuing with an initial fiber force and length of 0 and 0.100000
+    Here is a report from the routine:
+ 
+        Solution Error      : 0.008911 > tol (0.000011) 
+        Newton Iterations   : 200 of max. iterations (200)
+    Check that the initial activation is valid, and that the whole 
+    length doesn't produce a pennation angle of 90 degrees, nor a fiber
+    length less than 0:
+        Activation          : 0.050000 
+        Whole muscle length : nan 
+
+
+WARNING: No suitable initial conditions found for
+  tfl_l: 
+  by 
+
+WARNING: Thelen2003Muscle::computeInitialFiberEquilibrium(SimTK::State& s) 
+Continuing with an initial fiber force and length of 0 and 0.095000
+    Here is a report from the routine:
+ 
+        Solution Error      : 0.008242 > tol (0.000002) 
+        Newton Iterations   : 200 of max. iterations (200)
+    Check that the initial activation is valid, and that the whole 
+    length doesn't produce a pennation angle of 90 degrees, nor a fiber
+    length less than 0:
+        Activation          : 0.050000 
+        Whole muscle length : nan 
+
+
+WARNING: No suitable initial conditions found for
+  quad_fem_l: 
+  by 
+
+WARNING: Thelen2003Muscle::computeInitialFiberEquilibrium(SimTK::State& s) 
+Continuing with an initial fiber force and length of 0 and 0.054000
+    Here is a report from the routine:
+ 
+        Solution Error      : 17193.496783 > tol (0.000004) 
+        Newton Iterations   : 200 of max. iterations (200)
+    Check that the initial activation is valid, and that the whole 
+    length doesn't produce a pennation angle of 90 degrees, nor a fiber
+    length less than 0:
+        Activation          : 0.050000 
+        Whole muscle length : nan 
+
+
+WARNING: No suitable initial conditions found for
+  tib_post_l: 
+  by 
+
+WARNING: Thelen2003Muscle::computeInitialFiberEquilibrium(SimTK::State& s) 
+Continuing with an initial fiber force and length of 0 and 0.031000
+    Here is a report from the routine:
+ 
+        Solution Error      : 2.786121 > tol (0.000036) 
+        Newton Iterations   : 200 of max. iterations (200)
+    Check that the initial activation is valid, and that the whole 
+    length doesn't produce a pennation angle of 90 degrees, nor a fiber
+    length less than 0:
+        Activation          : 0.050000 
+        Whole muscle length : nan 
+
+
+WARNING: No suitable initial conditions found for
+  peri_l: 
+  by 
+
+WARNING: Thelen2003Muscle::computeInitialFiberEquilibrium(SimTK::State& s) 
+Continuing with an initial fiber force and length of 0 and 0.026000
+    Here is a report from the routine:
+ 
+        Solution Error      : 6.681678 > tol (0.000004) 
+        Newton Iterations   : 200 of max. iterations (200)
+    Check that the initial activation is valid, and that the whole 
+    length doesn't produce a pennation angle of 90 degrees, nor a fiber
+    length less than 0:
+        Activation          : 0.050000 
+        Whole muscle length : nan 
+
+
+WARNING: No suitable initial conditions found for
+  psoas_l: 
+  by 
+
+WARNING: Thelen2003Muscle::computeInitialFiberEquilibrium(SimTK::State& s) 
+Continuing with an initial fiber force and length of 0 and 0.100000
+    Here is a report from the routine:
+ 
+        Solution Error      : 0.007508 > tol (0.000011) 
+        Newton Iterations   : 200 of max. iterations (200)
+    Check that the initial activation is valid, and that the whole 
+    length doesn't produce a pennation angle of 90 degrees, nor a fiber
+    length less than 0:
+        Activation          : 0.050000 
+        Whole muscle length : nan 
+
+
+WARNING: No suitable initial conditions found for
+  glut_med1_l: 
+  by 
+
+WARNING: Thelen2003Muscle::computeInitialFiberEquilibrium(SimTK::State& s) 
+Continuing with an initial fiber force and length of 0 and 0.053500
+    Here is a report from the routine:
+ 
+        Solution Error      : 210.935857 > tol (0.000011) 
+        Newton Iterations   : 200 of max. iterations (200)
+    Check that the initial activation is valid, and that the whole 
+    length doesn't produce a pennation angle of 90 degrees, nor a fiber
+    length less than 0:
+        Activation          : 0.050000 
+        Whole muscle length : nan 
+
+
+WARNING: No suitable initial conditions found for
+  tfl_l: 
+  by 
+
+WARNING: Thelen2003Muscle::computeInitialFiberEquilibrium(SimTK::State& s) 
+Continuing with an initial fiber force and length of 0 and 0.095000
+    Here is a report from the routine:
+ 
+        Solution Error      : 0.028073 > tol (0.000002) 
+        Newton Iterations   : 200 of max. iterations (200)
+    Check that the initial activation is valid, and that the whole 
+    length doesn't produce a pennation angle of 90 degrees, nor a fiber
+    length less than 0:
+        Activation          : 0.050000 
+        Whole muscle length : nan 
+
+
+WARNING: No suitable initial conditions found for
+  tib_post_l: 
+  by 
+
+WARNING: Thelen2003Muscle::computeInitialFiberEquilibrium(SimTK::State& s) 
+Continuing with an initial fiber force and length of 0 and 0.031000
+    Here is a report from the routine:
+ 
+        Solution Error      : 11.086069 > tol (0.000036) 
+        Newton Iterations   : 200 of max. iterations (200)
+    Check that the initial activation is valid, and that the whole 
+    length doesn't produce a pennation angle of 90 degrees, nor a fiber
+    length less than 0:
+        Activation          : 0.050000 
+        Whole muscle length : nan 
+
+
+WARNING: No suitable initial conditions found for
+  rect_fem_l: 
+  by 
+
+WARNING: Thelen2003Muscle::computeInitialFiberEquilibrium(SimTK::State& s) 
+Continuing with an initial fiber force and length of 0 and 0.114000
+    Here is a report from the routine:
+ 
+        Solution Error      : 0.054309 > tol (0.000012) 
+        Newton Iterations   : 200 of max. iterations (200)
+    Check that the initial activation is valid, and that the whole 
+    length doesn't produce a pennation angle of 90 degrees, nor a fiber
+    length less than 0:
+        Activation          : 0.050000 
+        Whole muscle length : nan 
+
+
+WARNING: No suitable initial conditions found for
+  tfl_l: 
+  by 
+
+WARNING: Thelen2003Muscle::computeInitialFiberEquilibrium(SimTK::State& s) 
+Continuing with an initial fiber force and length of 0 and 0.095000
+    Here is a report from the routine:
+ 
+        Solution Error      : 2.718982 > tol (0.000002) 
+        Newton Iterations   : 200 of max. iterations (200)
+    Check that the initial activation is valid, and that the whole 
+    length doesn't produce a pennation angle of 90 degrees, nor a fiber
+    length less than 0:
+        Activation          : 0.050000 
+        Whole muscle length : nan 
+
+
+WARNING: No suitable initial conditions found for
+  gem_l: 
+  by 
+
+WARNING: Thelen2003Muscle::computeInitialFiberEquilibrium(SimTK::State& s) 
+Continuing with an initial fiber force and length of 0 and 0.024000
+    Here is a report from the routine:
+ 
+        Solution Error      : 1.817336 > tol (0.000002) 
+        Newton Iterations   : 200 of max. iterations (200)
+    Check that the initial activation is valid, and that the whole 
+    length doesn't produce a pennation angle of 90 degrees, nor a fiber
+    length less than 0:
+        Activation          : 0.050000 
+        Whole muscle length : nan 
+
+
+WARNING: No suitable initial conditions found for
+  tfl_l: 
+  by 
+
+WARNING: Thelen2003Muscle::computeInitialFiberEquilibrium(SimTK::State& s) 
+Continuing with an initial fiber force and length of 0 and 0.095000
+    Here is a report from the routine:
+ 
+        Solution Error      : 0.040581 > tol (0.000002) 
+        Newton Iterations   : 200 of max. iterations (200)
+    Check that the initial activation is valid, and that the whole 
+    length doesn't produce a pennation angle of 90 degrees, nor a fiber
+    length less than 0:
+        Activation          : 0.050000 
+        Whole muscle length : nan 
+
+
+WARNING: No suitable initial conditions found for
+  quad_fem_l: 
+  by 
+
+WARNING: Thelen2003Muscle::computeInitialFiberEquilibrium(SimTK::State& s) 
+Continuing with an initial fiber force and length of 0 and 0.054000
+    Here is a report from the routine:
+ 
+        Solution Error      : 17394.862296 > tol (0.000004) 
+        Newton Iterations   : 200 of max. iterations (200)
+    Check that the initial activation is valid, and that the whole 
+    length doesn't produce a pennation angle of 90 degrees, nor a fiber
+    length less than 0:
+        Activation          : 0.050000 
+        Whole muscle length : nan 
+
+
+WARNING: No suitable initial conditions found for
+  tib_post_l: 
+  by 
+
+WARNING: Thelen2003Muscle::computeInitialFiberEquilibrium(SimTK::State& s) 
+Continuing with an initial fiber force and length of 0 and 0.031000
+    Here is a report from the routine:
+ 
+        Solution Error      : 1.780872 > tol (0.000036) 
+        Newton Iterations   : 200 of max. iterations (200)
+    Check that the initial activation is valid, and that the whole 
+    length doesn't produce a pennation angle of 90 degrees, nor a fiber
+    length less than 0:
+        Activation          : 0.050000 
+        Whole muscle length : nan 
+
+
+WARNING: No suitable initial conditions found for
+  soleus_l: 
+  by 
+
+WARNING: Thelen2003Muscle::computeInitialFiberEquilibrium(SimTK::State& s) 
+Continuing with an initial fiber force and length of 0 and 0.050000
+    Here is a report from the routine:
+ 
+        Solution Error      : 0.277902 > tol (0.000040) 
+        Newton Iterations   : 200 of max. iterations (200)
+    Check that the initial activation is valid, and that the whole 
+    length doesn't produce a pennation angle of 90 degrees, nor a fiber
+    length less than 0:
+        Activation          : 0.050000 
+        Whole muscle length : nan 
+
+
+WARNING: No suitable initial conditions found for
+  tfl_l: 
+  by 
+
+WARNING: Thelen2003Muscle::computeInitialFiberEquilibrium(SimTK::State& s) 
+Continuing with an initial fiber force and length of 0 and 0.095000
+    Here is a report from the routine:
+ 
+        Solution Error      : 0.008741 > tol (0.000002) 
+        Newton Iterations   : 200 of max. iterations (200)
+    Check that the initial activation is valid, and that the whole 
+    length doesn't produce a pennation angle of 90 degrees, nor a fiber
+    length less than 0:
+        Activation          : 0.050000 
+        Whole muscle length : nan 
+
+
+WARNING: No suitable initial conditions found for
+  glut_med1_l: 
+  by 
+
+WARNING: Thelen2003Muscle::computeInitialFiberEquilibrium(SimTK::State& s) 
+Continuing with an initial fiber force and length of 0 and 0.053500
+    Here is a report from the routine:
+ 
+        Solution Error      : 23.818680 > tol (0.000011) 
+        Newton Iterations   : 200 of max. iterations (200)
+    Check that the initial activation is valid, and that the whole 
+    length doesn't produce a pennation angle of 90 degrees, nor a fiber
+    length less than 0:
+        Activation          : 0.050000 
+        Whole muscle length : nan 
+
+
+WARNING: No suitable initial conditions found for
+  tfl_l: 
+  by 
+
+WARNING: Thelen2003Muscle::computeInitialFiberEquilibrium(SimTK::State& s) 
+Continuing with an initial fiber force and length of 0 and 0.095000
+    Here is a report from the routine:
+ 
+        Solution Error      : 0.277819 > tol (0.000002) 
+        Newton Iterations   : 200 of max. iterations (200)
+    Check that the initial activation is valid, and that the whole 
+    length doesn't produce a pennation angle of 90 degrees, nor a fiber
+    length less than 0:
+        Activation          : 0.050000 
+        Whole muscle length : nan 
+
+
+WARNING: No suitable initial conditions found for
+  tfl_l: 
+  by 
+
+WARNING: Thelen2003Muscle::computeInitialFiberEquilibrium(SimTK::State& s) 
+Continuing with an initial fiber force and length of 0 and 0.095000
+    Here is a report from the routine:
+ 
+        Solution Error      : 0.008760 > tol (0.000002) 
+        Newton Iterations   : 200 of max. iterations (200)
+    Check that the initial activation is valid, and that the whole 
+    length doesn't produce a pennation angle of 90 degrees, nor a fiber
+    length less than 0:
+        Activation          : 0.050000 
+        Whole muscle length : nan 
+
+
+WARNING: No suitable initial conditions found for
+  bifemsh_l: 
+  by 
+
+WARNING: Thelen2003Muscle::computeInitialFiberEquilibrium(SimTK::State& s) 
+Continuing with an initial fiber force and length of 0 and 0.173000
+    Here is a report from the routine:
+ 
+        Solution Error      : 0.000112 > tol (0.000008) 
+        Newton Iterations   : 200 of max. iterations (200)
+    Check that the initial activation is valid, and that the whole 
+    length doesn't produce a pennation angle of 90 degrees, nor a fiber
+    length less than 0:
+        Activation          : 0.050000 
+        Whole muscle length : nan 
+
+
+WARNING: No suitable initial conditions found for
+  tib_post_l: 
+  by 
+
+WARNING: Thelen2003Muscle::computeInitialFiberEquilibrium(SimTK::State& s) 
+Continuing with an initial fiber force and length of 0 and 0.031000
+    Here is a report from the routine:
+ 
+        Solution Error      : 3.205799 > tol (0.000036) 
+        Newton Iterations   : 200 of max. iterations (200)
+    Check that the initial activation is valid, and that the whole 
+    length doesn't produce a pennation angle of 90 degrees, nor a fiber
+    length less than 0:
+        Activation          : 0.050000 
+        Whole muscle length : nan 
+
+
+WARNING: No suitable initial conditions found for
+  bifemlh_l: 
+  by 
+
+WARNING: Thelen2003Muscle::computeInitialFiberEquilibrium(SimTK::State& s) 
+Continuing with an initial fiber force and length of 0 and 0.109000
+    Here is a report from the routine:
+ 
+        Solution Error      : 2.506394 > tol (0.000027) 
+        Newton Iterations   : 200 of max. iterations (200)
+    Check that the initial activation is valid, and that the whole 
+    length doesn't produce a pennation angle of 90 degrees, nor a fiber
+    length less than 0:
+        Activation          : 0.050000 
+        Whole muscle length : nan 
+
+
+WARNING: No suitable initial conditions found for
+  psoas_l: 
+  by 
+
+WARNING: Thelen2003Muscle::computeInitialFiberEquilibrium(SimTK::State& s) 
+Continuing with an initial fiber force and length of 0 and 0.100000
+    Here is a report from the routine:
+ 
+        Solution Error      : 0.014037 > tol (0.000011) 
+        Newton Iterations   : 200 of max. iterations (200)
+    Check that the initial activation is valid, and that the whole 
+    length doesn't produce a pennation angle of 90 degrees, nor a fiber
+    length less than 0:
+        Activation          : 0.050000 
+        Whole muscle length : nan 
+
+
+WARNING: No suitable initial conditions found for
+  glut_med1_l: 
+  by 
+
+WARNING: Thelen2003Muscle::computeInitialFiberEquilibrium(SimTK::State& s) 
+Continuing with an initial fiber force and length of 0 and 0.053500
+    Here is a report from the routine:
+ 
+        Solution Error      : 19.285673 > tol (0.000011) 
+        Newton Iterations   : 200 of max. iterations (200)
+    Check that the initial activation is valid, and that the whole 
+    length doesn't produce a pennation angle of 90 degrees, nor a fiber
+    length less than 0:
+        Activation          : 0.050000 
+        Whole muscle length : nan 
+
+
+WARNING: No suitable initial conditions found for
+  peri_l: 
+  by 
+
+WARNING: Thelen2003Muscle::computeInitialFiberEquilibrium(SimTK::State& s) 
+Continuing with an initial fiber force and length of 0 and 0.026000
+    Here is a report from the routine:
+ 
+        Solution Error      : 0.075224 > tol (0.000004) 
+        Newton Iterations   : 200 of max. iterations (200)
+    Check that the initial activation is valid, and that the whole 
+    length doesn't produce a pennation angle of 90 degrees, nor a fiber
+    length less than 0:
+        Activation          : 0.050000 
+        Whole muscle length : nan 
+
+
+WARNING: No suitable initial conditions found for
+  tfl_l: 
+  by 
+
+WARNING: Thelen2003Muscle::computeInitialFiberEquilibrium(SimTK::State& s) 
+Continuing with an initial fiber force and length of 0 and 0.095000
+    Here is a report from the routine:
+ 
+        Solution Error      : 29.106198 > tol (0.000002) 
+        Newton Iterations   : 200 of max. iterations (200)
+    Check that the initial activation is valid, and that the whole 
+    length doesn't produce a pennation angle of 90 degrees, nor a fiber
+    length less than 0:
+        Activation          : 0.050000 
+        Whole muscle length : nan 
+
+
+WARNING: No suitable initial conditions found for
+  tib_post_l: 
+  by 
+
+WARNING: Thelen2003Muscle::computeInitialFiberEquilibrium(SimTK::State& s) 
+Continuing with an initial fiber force and length of 0 and 0.031000
+    Here is a report from the routine:
+ 
+        Solution Error      : 3.056949 > tol (0.000036) 
+        Newton Iterations   : 200 of max. iterations (200)
+    Check that the initial activation is valid, and that the whole 
+    length doesn't produce a pennation angle of 90 degrees, nor a fiber
+    length less than 0:
+        Activation          : 0.050000 
+        Whole muscle length : nan 
+
+
+WARNING: No suitable initial conditions found for
+  gem_l: 
+  by 
+
+WARNING: Thelen2003Muscle::computeInitialFiberEquilibrium(SimTK::State& s) 
+Continuing with an initial fiber force and length of 0 and 0.024000
+    Here is a report from the routine:
+ 
+        Solution Error      : 1.827207 > tol (0.000002) 
+        Newton Iterations   : 200 of max. iterations (200)
+    Check that the initial activation is valid, and that the whole 
+    length doesn't produce a pennation angle of 90 degrees, nor a fiber
+    length less than 0:
+        Activation          : 0.050000 
+        Whole muscle length : nan 
+
+
+WARNING: No suitable initial conditions found for
+  bifemlh_l: 
+  by 
+
+WARNING: Thelen2003Muscle::computeInitialFiberEquilibrium(SimTK::State& s) 
+Continuing with an initial fiber force and length of 0 and 0.109000
+    Here is a report from the routine:
+ 
+        Solution Error      : 0.315489 > tol (0.000027) 
+        Newton Iterations   : 200 of max. iterations (200)
+    Check that the initial activation is valid, and that the whole 
+    length doesn't produce a pennation angle of 90 degrees, nor a fiber
+    length less than 0:
+        Activation          : 0.050000 
+        Whole muscle length : nan 
+
+
+WARNING: No suitable initial conditions found for
+  tfl_l: 
+  by 
+
+WARNING: Thelen2003Muscle::computeInitialFiberEquilibrium(SimTK::State& s) 
+Continuing with an initial fiber force and length of 0 and 0.095000
+    Here is a report from the routine:
+ 
+        Solution Error      : 0.054681 > tol (0.000002) 
+        Newton Iterations   : 200 of max. iterations (200)
+    Check that the initial activation is valid, and that the whole 
+    length doesn't produce a pennation angle of 90 degrees, nor a fiber
+    length less than 0:
+        Activation          : 0.050000 
+        Whole muscle length : nan 
+
+
+WARNING: No suitable initial conditions found for
+  glut_med1_l: 
+  by 
+
+WARNING: Thelen2003Muscle::computeInitialFiberEquilibrium(SimTK::State& s) 
+Continuing with an initial fiber force and length of 0 and 0.053500
+    Here is a report from the routine:
+ 
+        Solution Error      : 21.024423 > tol (0.000011) 
+        Newton Iterations   : 200 of max. iterations (200)
+    Check that the initial activation is valid, and that the whole 
+    length doesn't produce a pennation angle of 90 degrees, nor a fiber
+    length less than 0:
+        Activation          : 0.050000 
+        Whole muscle length : nan 
+
+
+WARNING: No suitable initial conditions found for
+  med_gas_l: 
+  by 
+
+WARNING: Thelen2003Muscle::computeInitialFiberEquilibrium(SimTK::State& s) 
+Continuing with an initial fiber force and length of 0 and 0.090000
+    Here is a report from the routine:
+ 
+        Solution Error      : 0.072228 > tol (0.000025) 
+        Newton Iterations   : 200 of max. iterations (200)
+    Check that the initial activation is valid, and that the whole 
+    length doesn't produce a pennation angle of 90 degrees, nor a fiber
+    length less than 0:
+        Activation          : 0.050000 
+        Whole muscle length : nan 
+
+
+WARNING: No suitable initial conditions found for
+  rect_fem_l: 
+  by 
+
+WARNING: Thelen2003Muscle::computeInitialFiberEquilibrium(SimTK::State& s) 
+Continuing with an initial fiber force and length of 0 and 0.114000
+    Here is a report from the routine:
+ 
+        Solution Error      : 0.023751 > tol (0.000012) 
+        Newton Iterations   : 200 of max. iterations (200)
+    Check that the initial activation is valid, and that the whole 
+    length doesn't produce a pennation angle of 90 degrees, nor a fiber
+    length less than 0:
+        Activation          : 0.050000 
+        Whole muscle length : nan 
+
+
+WARNING: No suitable initial conditions found for
+  tib_post_l: 
+  by 
+
+WARNING: Thelen2003Muscle::computeInitialFiberEquilibrium(SimTK::State& s) 
+Continuing with an initial fiber force and length of 0 and 0.031000
+    Here is a report from the routine:
+ 
+        Solution Error      : 5.562510 > tol (0.000036) 
+        Newton Iterations   : 200 of max. iterations (200)
+    Check that the initial activation is valid, and that the whole 
+    length doesn't produce a pennation angle of 90 degrees, nor a fiber
+    length less than 0:
+        Activation          : 0.050000 
+        Whole muscle length : nan 
+
+
+WARNING: No suitable initial conditions found for
+  tfl_l: 
+  by 
+
+WARNING: Thelen2003Muscle::computeInitialFiberEquilibrium(SimTK::State& s) 
+Continuing with an initial fiber force and length of 0 and 0.095000
+    Here is a report from the routine:
+ 
+        Solution Error      : 0.011713 > tol (0.000002) 
+        Newton Iterations   : 200 of max. iterations (200)
+    Check that the initial activation is valid, and that the whole 
+    length doesn't produce a pennation angle of 90 degrees, nor a fiber
+    length less than 0:
+        Activation          : 0.050000 
+        Whole muscle length : nan 
+
+
+WARNING: No suitable initial conditions found for
+  tfl_l: 
+  by 
+
+WARNING: Thelen2003Muscle::computeInitialFiberEquilibrium(SimTK::State& s) 
+Continuing with an initial fiber force and length of 0 and 0.095000
+    Here is a report from the routine:
+ 
+        Solution Error      : 0.010767 > tol (0.000002) 
+        Newton Iterations   : 200 of max. iterations (200)
+    Check that the initial activation is valid, and that the whole 
+    length doesn't produce a pennation angle of 90 degrees, nor a fiber
+    length less than 0:
+        Activation          : 0.050000 
+        Whole muscle length : nan 
+
+
+WARNING: No suitable initial conditions found for
+  quad_fem_l: 
+  by 
+
+WARNING: Thelen2003Muscle::computeInitialFiberEquilibrium(SimTK::State& s) 
+Continuing with an initial fiber force and length of 0 and 0.054000
+    Here is a report from the routine:
+ 
+        Solution Error      : 17271.510202 > tol (0.000004) 
+        Newton Iterations   : 200 of max. iterations (200)
+    Check that the initial activation is valid, and that the whole 
+    length doesn't produce a pennation angle of 90 degrees, nor a fiber
+    length less than 0:
+        Activation          : 0.050000 
+        Whole muscle length : nan 
+
+
+WARNING: No suitable initial conditions found for
+  tfl_l: 
+  by 
+
+WARNING: Thelen2003Muscle::computeInitialFiberEquilibrium(SimTK::State& s) 
+Continuing with an initial fiber force and length of 0 and 0.095000
+    Here is a report from the routine:
+ 
+        Solution Error      : 0.310034 > tol (0.000002) 
+        Newton Iterations   : 200 of max. iterations (200)
+    Check that the initial activation is valid, and that the whole 
+    length doesn't produce a pennation angle of 90 degrees, nor a fiber
+    length less than 0:
+        Activation          : 0.050000 
+        Whole muscle length : nan 
+
+
+WARNING: No suitable initial conditions found for
+  glut_med1_l: 
+  by 
+
+WARNING: Thelen2003Muscle::computeInitialFiberEquilibrium(SimTK::State& s) 
+Continuing with an initial fiber force and length of 0 and 0.053500
+    Here is a report from the routine:
+ 
+        Solution Error      : 18.010769 > tol (0.000011) 
+        Newton Iterations   : 200 of max. iterations (200)
+    Check that the initial activation is valid, and that the whole 
+    length doesn't produce a pennation angle of 90 degrees, nor a fiber
+    length less than 0:
+        Activation          : 0.050000 
+        Whole muscle length : nan 
+
+
+WARNING: No suitable initial conditions found for
+  tib_post_l: 
+  by 
+
+WARNING: Thelen2003Muscle::computeInitialFiberEquilibrium(SimTK::State& s) 
+Continuing with an initial fiber force and length of 0 and 0.031000
+    Here is a report from the routine:
+ 
+        Solution Error      : 2.974537 > tol (0.000036) 
+        Newton Iterations   : 200 of max. iterations (200)
+    Check that the initial activation is valid, and that the whole 
+    length doesn't produce a pennation angle of 90 degrees, nor a fiber
+    length less than 0:
+        Activation          : 0.050000 
+        Whole muscle length : nan 
+
+
+WARNING: No suitable initial conditions found for
+  tfl_l: 
+  by 
+
+WARNING: Thelen2003Muscle::computeInitialFiberEquilibrium(SimTK::State& s) 
+Continuing with an initial fiber force and length of 0 and 0.095000
+    Here is a report from the routine:
+ 
+        Solution Error      : 2.712870 > tol (0.000002) 
+        Newton Iterations   : 200 of max. iterations (200)
+    Check that the initial activation is valid, and that the whole 
+    length doesn't produce a pennation angle of 90 degrees, nor a fiber
+    length less than 0:
+        Activation          : 0.050000 
+        Whole muscle length : nan 
+
+
+WARNING: No suitable initial conditions found for
+  peri_l: 
+  by 
+
+WARNING: Thelen2003Muscle::computeInitialFiberEquilibrium(SimTK::State& s) 
+Continuing with an initial fiber force and length of 0 and 0.026000
+    Here is a report from the routine:
+ 
+        Solution Error      : 0.003512 > tol (0.000004) 
+        Newton Iterations   : 200 of max. iterations (200)
+    Check that the initial activation is valid, and that the whole 
+    length doesn't produce a pennation angle of 90 degrees, nor a fiber
+    length less than 0:
+        Activation          : 0.050000 
+        Whole muscle length : nan 
+
+
+WARNING: No suitable initial conditions found for
+  tfl_l: 
+  by 
+
+WARNING: Thelen2003Muscle::computeInitialFiberEquilibrium(SimTK::State& s) 
+Continuing with an initial fiber force and length of 0 and 0.095000
+    Here is a report from the routine:
+ 
+        Solution Error      : 0.015861 > tol (0.000002) 
+        Newton Iterations   : 200 of max. iterations (200)
+    Check that the initial activation is valid, and that the whole 
+    length doesn't produce a pennation angle of 90 degrees, nor a fiber
+    length less than 0:
+        Activation          : 0.050000 
+        Whole muscle length : nan 
+
+
+WARNING: No suitable initial conditions found for
+  tfl_l: 
+  by 
+
+WARNING: Thelen2003Muscle::computeInitialFiberEquilibrium(SimTK::State& s) 
+Continuing with an initial fiber force and length of 0 and 0.095000
+    Here is a report from the routine:
+ 
+        Solution Error      : 0.324770 > tol (0.000002) 
+        Newton Iterations   : 200 of max. iterations (200)
+    Check that the initial activation is valid, and that the whole 
+    length doesn't produce a pennation angle of 90 degrees, nor a fiber
+    length less than 0:
+        Activation          : 0.050000 
+        Whole muscle length : nan 
+
+
+WARNING: No suitable initial conditions found for
+  iliacus_l: 
+  by 
+
+WARNING: Thelen2003Muscle::computeInitialFiberEquilibrium(SimTK::State& s) 
+Continuing with an initial fiber force and length of 0 and 0.100000
+    Here is a report from the routine:
+ 
+        Solution Error      : 0.002423 > tol (0.000011) 
+        Newton Iterations   : 200 of max. iterations (200)
+    Check that the initial activation is valid, and that the whole 
+    length doesn't produce a pennation angle of 90 degrees, nor a fiber
+    length less than 0:
+        Activation          : 0.050000 
+        Whole muscle length : nan 
+
+
+WARNING: No suitable initial conditions found for
+  med_gas_l: 
+  by 
+
+WARNING: Thelen2003Muscle::computeInitialFiberEquilibrium(SimTK::State& s) 
+Continuing with an initial fiber force and length of 0 and 0.090000
+    Here is a report from the routine:
+ 
+        Solution Error      : 0.849856 > tol (0.000025) 
+        Newton Iterations   : 200 of max. iterations (200)
+    Check that the initial activation is valid, and that the whole 
+    length doesn't produce a pennation angle of 90 degrees, nor a fiber
+    length less than 0:
+        Activation          : 0.050000 
+        Whole muscle length : nan 
+
+
+WARNING: No suitable initial conditions found for
+  med_gas_l: 
+  by 
+
+WARNING: Thelen2003Muscle::computeInitialFiberEquilibrium(SimTK::State& s) 
+Continuing with an initial fiber force and length of 0 and 0.090000
+    Here is a report from the routine:
+ 
+        Solution Error      : 0.842722 > tol (0.000025) 
+        Newton Iterations   : 200 of max. iterations (200)
+    Check that the initial activation is valid, and that the whole 
+    length doesn't produce a pennation angle of 90 degrees, nor a fiber
+    length less than 0:
+        Activation          : 0.050000 
+        Whole muscle length : nan 
+
+
+WARNING: No suitable initial conditions found for
+  tfl_l: 
+  by 
+
+WARNING: Thelen2003Muscle::computeInitialFiberEquilibrium(SimTK::State& s) 
+Continuing with an initial fiber force and length of 0 and 0.095000
+    Here is a report from the routine:
+ 
+        Solution Error      : 0.306195 > tol (0.000002) 
+        Newton Iterations   : 200 of max. iterations (200)
+    Check that the initial activation is valid, and that the whole 
+    length doesn't produce a pennation angle of 90 degrees, nor a fiber
+    length less than 0:
+        Activation          : 0.050000 
+        Whole muscle length : nan 
+
+
+WARNING: No suitable initial conditions found for
+  bifemlh_l: 
+  by 
+
+WARNING: Thelen2003Muscle::computeInitialFiberEquilibrium(SimTK::State& s) 
+Continuing with an initial fiber force and length of 0 and 0.109000
+    Here is a report from the routine:
+ 
+        Solution Error      : 0.755959 > tol (0.000027) 
+        Newton Iterations   : 200 of max. iterations (200)
+    Check that the initial activation is valid, and that the whole 
+    length doesn't produce a pennation angle of 90 degrees, nor a fiber
+    length less than 0:
+        Activation          : 0.050000 
+        Whole muscle length : nan 
+
+
+WARNING: No suitable initial conditions found for
+  med_gas_l: 
+  by 
+
+WARNING: Thelen2003Muscle::computeInitialFiberEquilibrium(SimTK::State& s) 
+Continuing with an initial fiber force and length of 0 and 0.090000
+    Here is a report from the routine:
+ 
+        Solution Error      : 0.851069 > tol (0.000025) 
+        Newton Iterations   : 200 of max. iterations (200)
+    Check that the initial activation is valid, and that the whole 
+    length doesn't produce a pennation angle of 90 degrees, nor a fiber
+    length less than 0:
+        Activation          : 0.050000 
+        Whole muscle length : nan 
+
+
+WARNING: No suitable initial conditions found for
+  psoas_l: 
+  by 
+
+WARNING: Thelen2003Muscle::computeInitialFiberEquilibrium(SimTK::State& s) 
+Continuing with an initial fiber force and length of 0 and 0.100000
+    Here is a report from the routine:
+ 
+        Solution Error      : 0.000845 > tol (0.000011) 
+        Newton Iterations   : 200 of max. iterations (200)
+    Check that the initial activation is valid, and that the whole 
+    length doesn't produce a pennation angle of 90 degrees, nor a fiber
+    length less than 0:
+        Activation          : 0.050000 
+        Whole muscle length : nan 
+
+
+WARNING: No suitable initial conditions found for
+  iliacus_l: 
+  by 
+
+WARNING: Thelen2003Muscle::computeInitialFiberEquilibrium(SimTK::State& s) 
+Continuing with an initial fiber force and length of 0 and 0.100000
+    Here is a report from the routine:
+ 
+        Solution Error      : 0.000485 > tol (0.000011) 
+        Newton Iterations   : 200 of max. iterations (200)
+    Check that the initial activation is valid, and that the whole 
+    length doesn't produce a pennation angle of 90 degrees, nor a fiber
+    length less than 0:
+        Activation          : 0.050000 
+        Whole muscle length : nan 
+
+
+WARNING: No suitable initial conditions found for
+  med_gas_l: 
+  by 
+
+WARNING: Thelen2003Muscle::computeInitialFiberEquilibrium(SimTK::State& s) 
+Continuing with an initial fiber force and length of 0 and 0.090000
+    Here is a report from the routine:
+ 
+        Solution Error      : 0.334306 > tol (0.000025) 
+        Newton Iterations   : 200 of max. iterations (200)
+    Check that the initial activation is valid, and that the whole 
+    length doesn't produce a pennation angle of 90 degrees, nor a fiber
+    length less than 0:
+        Activation          : 0.050000 
+        Whole muscle length : nan 
+
+
+WARNING: No suitable initial conditions found for
+  soleus_l: 
+  by 
+
+WARNING: Thelen2003Muscle::computeInitialFiberEquilibrium(SimTK::State& s) 
+Continuing with an initial fiber force and length of 0 and 0.050000
+    Here is a report from the routine:
+ 
+        Solution Error      : 1.493163 > tol (0.000040) 
+        Newton Iterations   : 200 of max. iterations (200)
+    Check that the initial activation is valid, and that the whole 
+    length doesn't produce a pennation angle of 90 degrees, nor a fiber
+    length less than 0:
+        Activation          : 0.050000 
+        Whole muscle length : nan 
+
+
+WARNING: No suitable initial conditions found for
+  soleus_l: 
+  by 
+
+WARNING: Thelen2003Muscle::computeInitialFiberEquilibrium(SimTK::State& s) 
+Continuing with an initial fiber force and length of 0 and 0.050000
+    Here is a report from the routine:
+ 
+        Solution Error      : 1.498802 > tol (0.000040) 
+        Newton Iterations   : 200 of max. iterations (200)
+    Check that the initial activation is valid, and that the whole 
+    length doesn't produce a pennation angle of 90 degrees, nor a fiber
+    length less than 0:
+        Activation          : 0.050000 
+        Whole muscle length : nan 
+
+
