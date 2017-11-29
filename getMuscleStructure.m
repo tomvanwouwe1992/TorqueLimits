@@ -1,34 +1,36 @@
 function [MusclesOI,CoordinatesOI] = getMuscleStructure( Model_OS,CoordinatesOI_Names )
-% Print out the joints of the model
+
+% MusclesOI:
+    % Structure that holds information of the muscles that actuate the
+    % degrees of freedom (or coordinates) Of Interest
+    % ---> Name,Index,CoordinatesActuated(Name,Index),PropertiesOfMuscle(related to the Hill model)
+% MusclesOI:
+    % Name, Index of the coordinates Of Interest
+
+% NOTE: "Index" refers to the index in the OpenSim model 
+
+
+
+% Get all Coordinate Names in the model
 Nr_Coordinates = Model_OS.getCoordinateSet.getSize;
 for i = 1:Nr_Coordinates
     CoordinateNames(i).name = Model_OS.getCoordinateSet.get(i-1).getName.toCharArray';
 end
 
-% We are interested in muscles that actuate HIP(3) - KNEE - ANKLE of the
-% right leg
+% Assign index to our coordinates of interest
 for i = 1:length(CoordinatesOI_Names)
     for j = 1:length(CoordinateNames)
-        if CoordinateNames(j).name == string(CoordinatesOI_Names(i));
+        if CoordinateNames(j).name == string(CoordinatesOI_Names(i))
             CoordinatesOI(i).index = j;
-            
             break
         end
     end
 end
 
-% % Print out the coördinates in the Joints Of Interest
-% for i = 1:length(CoordinatesOI)
-%     index = CoordinatesOI(i).index;
-%     sizeCoordinateSet = Model_OS.getJointSet.get(index-1).getCoordinateSet.getSize;
-%     for j = 1:sizeCoordinateSet
-%         JointsOI(i).CoordinateSet(j).index = j;
-%         JointsOI(i).CoordinateSet(j).name = Model_OS.getJointSet.get(index-1).getCoordinateSet.get(j-1).getName;
-%     end
-% end
-
+% We get the information on the muscles of Interest
 state = Model_OS.initSystem;
-Model_OS.equilibrateMuscles(state);
+Model_OS.equilibrateMuscles(state); 
+
 Nr_Muscles = Model_OS.getMuscles.getSize;
 incM = 0;
 MuscleNr = 1;
@@ -53,9 +55,9 @@ for m = 1:Nr_Muscles
     inc = 0;
 end
 
-
-
 % Put the Muscle Properties into structure
+% These are the properties related to the hill model (isometric force,
+% tendon slack length, etc...)
 MusclesOI = getMuscleProperties(Model_OS,MusclesOI);
 
 

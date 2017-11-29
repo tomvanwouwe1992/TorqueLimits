@@ -1,6 +1,5 @@
 function [LMT,VMT,dM] = get_LMT_vMT_dM(Model_OS,MusclesOI,CoordinatesOI,kinematics,DOF)
-% We first setup the state of the model to the one provided in the
-% kinematics
+% Find  Muscle-Tendon Length & Velocity and the Moment-Arm Matrix
 
 LMT = zeros(size(kinematics,1),length(MusclesOI));
 VMT = zeros(size(kinematics,1),length(MusclesOI));
@@ -35,7 +34,7 @@ for t = 1:size(kinematics,1)
         end
     end
     for k = 1:length(DOF)
-        dM((t-1)*(length(MusclesOI)+length(DOF)) + length(MusclesOI) + k,k) = 1;
+        dM((t-1)*(length(MusclesOI)+length(DOF)) + length(MusclesOI) + k,k) = 1;  % We add this part to the moment arm matrix as the moment arms of the reserve actuators (which is 1 to the joint it is actuating and 0 to the others)
     end
 end
 

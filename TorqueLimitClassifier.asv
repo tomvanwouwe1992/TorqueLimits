@@ -104,12 +104,10 @@ function f = objective_SO (x, auxdata)
 %f     = 0.5 * sum(x.^2);
 [M, N, nDof, Fmax, Fpas, ID_data, MomentArm] = deal(auxdata{:});
 x_opt = reshape(x, M+nDof, N)';
-f     = 0.5 * (sum(sum(x_opt(:,1:M).^2)) + 10*sum(sum(x_opt(:,M+1:end).^2)));  % We want to minimize the optimization vector (activations of muscles and reserves)
+f     = 0.5 * (sum(sum(x_opt(:,1:M).^2)) + sum(sum(x_opt(:,M+1:end).^2)));  % We want to minimize the optimization vector (activations of muscles and reserves)
 % NOTE: We especially want to minimize the reserves to see whether the
 % muscles can deliver the desired moment since the activations of the
-% reserves are the torques itself and the activations of the muscles scale
-% with an optimal force we don't need to put an extremely high weight on the term
-% minimizing the reserves.
+% reserves are the torques itself and the activations of 
 end
 
 % ------------------------------------------------------------------
@@ -123,7 +121,7 @@ c = zeros(nDof*N,1);
 for k = 1:nDof
     F_matrix = reshape(F, M+nDof, N)';
     MomentArm_matrix = reshape(MomentArm(:,k), M+nDof, N)';
-    c(k:nDof:end) = sum(F_matrix.*MomentArm_matrix, 2) - ID_data(:,k);   % Inverse Dynamics Constraint - deliver the desired torque/moment
+    c(k:nDof:end) = sum(F_matrix.*MomentArm_matrix, 2) - ID_data(:,k);   % Inverse Dynamics Constraint
 end
 end
 % ------------------------------------------------------------------
@@ -131,7 +129,7 @@ function g = gradient_SO (x, auxdata)
 %g = x;
 [M, N, nDof, Fmax, Fpas, ID_data, MomentArm] = deal(auxdata{:});
 x_opt = reshape(x, M+nDof, N)';
-gtemp = [x_opt(:,1:M) 10*x_opt(:,M+1:end)];   % Gradient of the objective to the variables
+gtemp = [x_opt(:,1:M) x_opt(:,M+1:end)];
 I = N*(M+nDof);
 g = reshape(gtemp',I,1);
 end
@@ -143,7 +141,7 @@ nA = M + nDof; % number of actuators
 J = zeros(nDof*N,(nA)*N);
 for i = 1:N
     for k = 1:nDof
-        J(k+(i-1)*nDof,nA*(i-1)+1:nA*i) = MomentArm((i-1)*nA+1:i*nA,k)';  
+        J(k+(i-1)*nDof,nA*(i-1)+1:nA*i) = MomentArm((i-1)*nA+1:i*nA,k)';
     end
 end
 
@@ -158,7 +156,7 @@ nA = M + nDof; % number of actuators
 J = zeros(nDof*N,(nA)*N);
 for i = 1:N
     for k = 1:nDof
-        J(k+(i-1)*nDof,nA*(i-1)+1:nA*i) = Fmax((i-1)*nA+1:i*nA)'.*MomentArm((i-1)*nA+1:i*nA,k)'; % Partial derivatives of the constraints to the optimization variables
+        J(k+(i-1)*nDof,nA*(i-1)+1:nA*i) = Fmax((i-1)*nA+1:i*nA)'.*MomentArm((i-1)*nA+1:i*nA,k)';
     end
 end
 

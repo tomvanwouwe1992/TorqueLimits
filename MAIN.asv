@@ -14,5 +14,4 @@ tau = [50*rand(size,3) - 25*rand(size,3), 100*rand(size,2) - 50*rand(size,2)];  
 [Torque_Manageable,Activations,ReserveActuators] = TorqueLimitClassifier(q,q_dot,tau);
 
 % Note: In case of infeasible torque (indicated by 0) the activations
-% should max out, i.e. reach 1 (at least for some muscles) and the reserve
-% actuator torques are non-trivial.
+% should max out (at least for some muscles) 
